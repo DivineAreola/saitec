@@ -250,7 +250,6 @@ transition: .6s ease-in-out;}
     width: 100%;
     height: 86px;
 
-
 }
 .selection{
     display:block;
@@ -299,6 +298,7 @@ transition: .6s ease-in-out;}
     justify-content: center;
     padding-bottom: 3vw;
 }
+
 /**************НОВОСТИ************НОВОСТИ******************НОВОСТИ***************НОВОСТИ***********************************/
 .news{
     padding-top: 3%;
@@ -306,7 +306,8 @@ transition: .6s ease-in-out;}
     font-style: normal;
     align-self: center;
     color: #4A4A4A;
-
+    background-color: #eeeeee;
+    padding-bottom: 2%;
 }
 .newss{
 align-self: center;
@@ -330,13 +331,14 @@ width: 280px;
 background-color: rgba(255,255,255,.86);
 display: inline-block;
 top: 5%;
-margin: 2px 2px 2px 2px;
+margin: 2px 1.5vw 2px 2px;
 }
 .imagenews{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding-bottom: 2%;
+    text-align: left;
 }
 /*************************************************************************************************************/
 .research{
